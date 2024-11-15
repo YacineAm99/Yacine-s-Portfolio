@@ -1,0 +1,41 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #200544;
+    color: white;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto; /* Center the nav links */
+  }
+  
+  .nav-link-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-link-button:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .brand, .nav-links {
+    text-align: center;
+  }
+  
